@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.screenshots      = [ "./Documentation/screen_1.png" ]
   s.license          = { :type => "IBM License", :file => "LICENSE" }
   s.author           = 'IBM'
-  s.source           = { :git => "TestFirebaseAnalytics", :tag => "RELEASE-#{s.version}", :submodules => true }
+  s.source           = { :git => "https://github.com/sehaswaran/TestFirebaseAnalytics.git", :tag => "RELEASE-#{s.version}", :submodules => true }
 
   s.requires_arc = true
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '15.0'
 
   s.public_header_files = 'TestApp/**/*.h'
   s.source_files = 'TestApp/**/*.{h,m,swift}'
