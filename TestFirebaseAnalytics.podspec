@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
   s.exclude_files = 'TestApp/Info.plist'
 
   s.ios.frameworks = 'Foundation', 'UIKit'
-  s.static_framework = true
   s.dependency 'Firebase/Core'
 end
